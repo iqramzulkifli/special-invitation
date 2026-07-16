@@ -374,6 +374,66 @@ Will you go on our first date with me?
 19 July 2026 🤍
 
 </div>
+<button onclick="showPlan()">
+View Our Plan ✨
+</button>
+
+<div id="plan" style="
+display:none;
+margin-top:30px;
+padding:25px;
+background:#faf5ef;
+border-radius:20px;
+text-align:left;
+line-height:1.8;
+color:#555;
+">
+
+<h2 style="color:#806044;text-align:center;">
+Our First Date Plan 🤍
+</h2>
+
+<p>
+🕙 <b>10:00 AM</b><br>
+Iqram will come and pick you up.
+<br>
+A little adventure begins here. 🤍
+</p>
+
+<p>
+🌿 <b>Silverlakes Batu Gajah</b><br>
+Our first stop to create our first memory together.
+</p>
+
+<p>
+☕ <b>Cafe Seribu Rasa, Batu Gajah</b><br>
+Lunch time, good food, and hopefully lots of conversations.
+</p>
+
+<p>
+🎁 <b>AEON Station 18</b><br>
+A little gift stop for Iha's farewell gift and Hidayah's birthday gift.
+</p>
+
+<p>
+🎨 <b>Art BNB Ipoh</b><br>
+Let's create something together and keep a memory from our first date.
+</p>
+
+<p>
+🏡 <b>End of the day</b><br>
+Iqram will send Hafizah safely back home.
+</p>
+
+<hr style="border:none;border-top:1px solid #ddd;margin:20px 0;">
+
+<p style="text-align:center;">
+👗 <b>Dress Code</b><br>
+Come as you are. 🤍<br>
+No rules, no pressure — just be yourself.
+</p>
+
+</div>
 
 
 <button onclick="sayYes()">
@@ -401,6 +461,11 @@ function openLetter(){
 document.getElementById("home").style.display="none";
 
 document.getElementById("letter").style.display="block";
+
+}
+function showPlan(){
+
+document.getElementById("plan").style.display="block";
 
 }
 
